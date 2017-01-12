@@ -1,0 +1,98 @@
+*{
+   box-sizing: border-box;
+}
+
+.news-section{
+	width: 968px;
+	margin: 0 auto;
+	border: #ddd 8px solid;
+}
+
+body{
+	font-family: "Helvetica Neue", "Helvetica", "serif";
+}
+/*General site styles + general classes*/
+
+.column-container{
+	font-size: 0;
+}
+
+.news-column{
+	display: inline-block;
+	vertical-align: top;
+	font-size: medium;
+	width: 33.333%;
+
+	height: 280px;
+	padding: 9px 15px 9px 15px ;
+	border-right: #ddd 8px solid; 
+}
+
+.news-column:nth-of-type(3n) {
+		border-right: none;
+}
+ 
+.news-column h6 {
+	color: #888;
+	font-weight: 200;
+	margin: 6px 0;	
+}
+
+.news-column .bulletin-item{
+	margin-bottom: 24px;
+}
+
+.news-column .bulletin-item .item{
+	margin-bottom: 6px;
+}
+
+.news-column .bulletin-item .more-info{
+	margin-top: 6px;
+	color: #888;
+}
+
+.go-there{
+	color: darkorange;
+}
+
+.news-column hr{
+	border: none;
+	border-bottom: darkorange 1px solid;
+}
+
+
+.inner-columns{
+   padding: 0;
+}
+
+.inner-columns .hours,
+.inner-columns .partners{
+	padding: 9px 15px 9px 15px ;
+
+}
+
+.partners{
+	border-top: 8px #ddd solid;
+}
+
+	.thanks-column,
+	.logo-column{
+		display: inline-block;
+		vertical-align: top;
+		font-size: medium;
+
+	}
+
+	.thanks-column{
+		width: 66.67%;
+		font-size: 14px;
+	}
+
+	.logo-column{
+		width: 33.33%;
+	}
+
+	.logo-column img {
+		display: block;
+		width: 100%;
+	}
